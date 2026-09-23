@@ -1,0 +1,11 @@
+{
+  "name": "aws-cloudformation-full-stack-project",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "check:backend": "cd backend && node --check src/handler.js"
+  }
+}

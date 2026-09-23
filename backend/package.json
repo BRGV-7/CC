@@ -1,0 +1,11 @@
+{
+  "name": "student-task-backend",
+  "version": "1.0.0",
+  "main": "src/handler.js",
+  "scripts": {
+    "start": "node src/handler.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  }
+}
